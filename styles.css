@@ -135,8 +135,19 @@ color: var(--White-main-heading-stats);
 .attribution {
   font-size: 11px;
   text-align: center;
+  color: white;
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color:white;
+}
+
+
+@media (min-width: 768px) {
+  .card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
 }
